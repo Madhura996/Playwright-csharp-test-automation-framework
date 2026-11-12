@@ -1,0 +1,8 @@
+<RunSettings>
+	<TestRunParameters>			
+		<Parameter name="Url" value="https://www.saucedemo.com/" />
+		<Parameter name="RunLocalPlatform" value="Chrome" />
+		<!--<Parameter name="RunLocalPlatform" value="Firefox" />-->
+		<!--<Parameter name="RunLocalPlatform" value="Webkit" />-->
+	</TestRunParameters>
+</RunSettings>

@@ -1,4 +1,4 @@
-﻿namespace Playwright_csharp_test_automation_framework
+﻿namespace Playwright_csharp_test_automation_framework.Tests
 {
     public class Tests
     {
