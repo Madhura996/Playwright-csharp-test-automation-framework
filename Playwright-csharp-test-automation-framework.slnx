@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Playwright-csharp-test-automation-framework/Playwright-csharp-test-automation-framework.csproj" />
+  <Project Path="Test-automation-PageObjectModel/Test-automation-PageObjectModel.csproj" />
+</Solution>
