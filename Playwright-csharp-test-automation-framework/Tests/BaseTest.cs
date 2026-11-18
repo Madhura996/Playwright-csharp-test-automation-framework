@@ -2,7 +2,7 @@
 
 namespace Playwright_csharp_test_automation_framework.Tests
 {
-    internal abstract class BaseTest
+    public abstract class BaseTest
     {
         private IPlaywright _playwright;
         private IBrowser? _browser;
