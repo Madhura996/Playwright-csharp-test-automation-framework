@@ -18,8 +18,8 @@ namespace Test_automation_PageObjectModel.Pages
             ShoppingCartItems = new Label(pageDriver, "shopping-cart-badge");
             Menu = new Button(pageDriver, "open-menu");
             SortProducts = new StaticDropdown(pageDriver, "product-sort-container");
-            AddToCart = new Button(pageDriver, "add-to-cart-sauce-labs-backpack");
-            Remove = new Button(pageDriver, "remove-sauce-labs-backpack");
+            AddToCart = new Button(pageDriver, "add-to-cart-sauce-labs-fleece-jacket");
+            Remove = new Button(pageDriver, "remove-sauce-labs-fleece-jacket");
         }
     }
 }
