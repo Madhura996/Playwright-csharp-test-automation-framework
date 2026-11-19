@@ -12,7 +12,7 @@ namespace Test_automation_PageObjectModel.Pages
         public Button AddToCart { get; }
         public Button Remove { get; }
 
-        public InventoryPage(IPage pageDriver, string baseUrl, string path) : base(pageDriver, baseUrl, "/inventory.html")
+        public InventoryPage(IPage pageDriver, string baseUrl) : base(pageDriver, baseUrl, "/inventory.html")
         {
             ShoppingCart = new Link(pageDriver, "shopping-cart-link");
             ShoppingCartItems = new Label(pageDriver, "shopping-cart-badge");
@@ -21,5 +21,6 @@ namespace Test_automation_PageObjectModel.Pages
             AddToCart = new Button(pageDriver, "add-to-cart-sauce-labs-fleece-jacket");
             Remove = new Button(pageDriver, "remove-sauce-labs-fleece-jacket");
         }
+       
     }
 }

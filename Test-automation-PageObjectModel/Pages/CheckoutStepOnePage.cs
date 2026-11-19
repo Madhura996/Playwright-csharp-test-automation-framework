@@ -11,10 +11,10 @@ namespace Test_automation_PageObjectModel.Pages
         public Button Cancel { get; }
         public Button Continue { get; }
 
-        public CheckoutStepOnePage(IPage pageDriver, string baseUrl, string path) : base(pageDriver, baseUrl, "/checkout-step-one.html")
+        public CheckoutStepOnePage(IPage pageDriver, string baseUrl) : base(pageDriver, baseUrl, "/checkout-step-one.html")
         {
-            FirstName = new TextField(pageDriver, "first-name");
-            LastName = new TextField(pageDriver, "last-name");
+            FirstName = new TextField(pageDriver, "firstName");
+            LastName = new TextField(pageDriver, "lastName");
             PostalCode = new TextField(pageDriver, "postalCode");
             Cancel = new Button(pageDriver, "cancel");
             Continue = new Button(pageDriver, "continue");

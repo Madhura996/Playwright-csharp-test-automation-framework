@@ -16,7 +16,7 @@ namespace Test_automation_PageObjectModel.Pages
         public Button Cancel { get; }
         public Button Finish { get; }
 
-        public CheckoutStepTwoPage(IPage pageDriver, string baseUrl, string path) : base(pageDriver, baseUrl, "/checkout-step-two.html")
+        public CheckoutStepTwoPage(IPage pageDriver, string baseUrl) : base(pageDriver, baseUrl, "/checkout-step-two.html")
         {
             PaymentInfo = new Label(pageDriver, "payment-info-label");
             PaymentInfoValue = new Label(pageDriver, "payment-info-value");

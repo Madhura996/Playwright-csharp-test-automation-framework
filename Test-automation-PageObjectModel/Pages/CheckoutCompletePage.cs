@@ -9,7 +9,7 @@ namespace Test_automation_PageObjectModel.Pages
         public Label OrderDispatched { get; }
         public Button BackHome { get; }
 
-        public CheckoutCompletePage(IPage pageDriver, string baseUrl, string path) : base(pageDriver, baseUrl, "/checkout-complete.html")
+        public CheckoutCompletePage(IPage pageDriver, string baseUrl) : base(pageDriver, baseUrl, "/checkout-complete.html")
         {
             CheckoutCompleteThankYou = new HeaderComponent(pageDriver, "complete-header");
             OrderDispatched = new Label(pageDriver, "complete-text");
