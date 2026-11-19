@@ -63,29 +63,6 @@ namespace Playwright_csharp_test_automation_framework.Tests
             await checkoutCompletePage.BackHome.ClickAsync();
             Assert.That(pageDriver.Url, Is.EqualTo($"{BaseUrl}/inventory.html"));
         }
-
-        //[Test]
-        [Category("Positive")]
-        public async Task AddFleeceJacketToCart_ShouldDisplayItemInCart()
-        {                   
-        }
-
-        //[Test]
-        [Category("Positive")]
-        public async Task VerifyItemInCartAndProceedToCheckout_ShouldDisplayItemInCart()
-        {
-        }
-
-        //[Test]
-        [Category("Positive")]
-        public async Task EnterCheckoutInformationAndContinue_ShouldRedirectToCheckoutOverview()
-        {           
-        }
-
-        //[Test]
-        [Category("Positive")]
-        public async Task VerifyPaymentAndShippingInformationAndClickFinish_ShouldRedirectToCheckoutComplete()
-        {
-        }
+                
     }
 }
