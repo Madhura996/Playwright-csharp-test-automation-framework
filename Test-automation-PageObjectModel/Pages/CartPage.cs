@@ -9,7 +9,7 @@ namespace Test_automation_PageObjectModel.Pages
         public Button Checkout { get; }
         public Button Remove { get; }
 
-        public CartPage(IPage pageDriver, string baseUrl, string path) : base(pageDriver, baseUrl, "/cart.html")
+        public CartPage(IPage pageDriver, string baseUrl) : base(pageDriver, baseUrl, "/cart.html")
         {
             ContinueShopping = new Button(pageDriver, "continue-shopping");
             Checkout = new Button(pageDriver, "checkout");

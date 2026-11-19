@@ -14,7 +14,7 @@ namespace Playwright_csharp_test_automation_framework.Tests
             await loginPage.Username.SetTextAsync("standard_user");
             await loginPage.Password.SetTextAsync("secret_sauce");
             await loginPage.Login.ClickAsync();
-            Assert.That(pageDriver.Url, Is.EqualTo($"{BaseUrl}inventory.html"));
+            Assert.That(pageDriver.Url, Is.EqualTo($"{BaseUrl}/inventory.html"));
         }
 
         [Test]
